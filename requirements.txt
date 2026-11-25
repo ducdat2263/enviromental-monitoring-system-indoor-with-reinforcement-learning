@@ -1,0 +1,5 @@
+numpy
+pyserial
+# The script uses the paho-mqtt 1.x client API (mqtt.Client(client_id=..., clean_session=...)).
+# paho-mqtt 2.x changed the constructor, so keep this pinned below 2.0.
+paho-mqtt>=1.6,<2.0
